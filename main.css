@@ -1,4 +1,10 @@
-body{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   /*
   background-image: url(assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -6,4 +12,32 @@ body{
   background-size: cover;
   */
   background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+#container {
+  border: 1px solid white;
+  width: 360px;
+  margin: auto;
+}
+
+#container {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+  /*
+  display: block;
+  margin: auto;
+  Posso mudar a img para o tipo "block" e aplicar a propriedade "margin: auto;" pra centraliza-la.
+  */
+}
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
