@@ -13,7 +13,7 @@ function togleMode() {
   } else {
     //se tiver sem light mode, manter a imagem normal
    img.setAttribute('src', 'assets/avatar.png')
-   img.setAttribute('alt', 'Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo.')
+   img.setAttribute('alt', 'Foto de Tobias Santos sorrindo, usando camisa social preta.')
   }
 
 }
